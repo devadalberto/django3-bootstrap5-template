@@ -1,6 +1,6 @@
 # django3-bootstrap5-template
 
-My first attempt to create a starter template for django
+My humble version of  starter template for django using some cool 'must have' for any project.
 
 ## Versions
 
@@ -41,11 +41,16 @@ And you should see something like this:
 
 ### More Details
 
-... coming soon
+This starter comes with an application named 'accounts', I extended the User model as per many readings/recommendations found all over the place.
+
+Also it have some other files and settings that I took from a project called django-cookiecutter.
+
+... more stuff coming soon
 
 ### ToDo
 
 - [x] Create an accounts application to expand the user model
 - [x] Create README that can actually be used to copy and paste
+- [ ] Add a table/list with all the credits (I basically took a bunch of concepts from many pages so I claim NO rights here)
 - [ ] Document how to change DB (basically changing from dev to test or prod configs)
 - [ ] Make a similar template with different css frameworks (SemanticUI / TailwindCSS)
