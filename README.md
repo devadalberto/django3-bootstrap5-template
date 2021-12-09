@@ -2,27 +2,25 @@
 
 My first attempt to create a starter template for django
 
----
-
 ## Versions
 
 - django 3.2.10
 - bootstrap 5.1.3
--
----
 
 ## tl;dr
 
 Assuming you have already created a virtual environment(venv) and activated it:
 
 ```python
-django-admin startapp kamehameha --template <update_url_to_zip>
+django-admin startproject kamehameha --template https://github.com/devadalberto/django3-bootstrap5-template/archive/refs/heads/main.zip
 ```
 
-(Optional: Upgrade your pip installation)
+```python
+cd kamehameha
+```
 
 ```python
-pip install -r .\requirements\dev.txt
+pip install -r requirements/dev.txt
 ```
 
 ```python
@@ -37,6 +35,10 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+And you should see something like this:
+
+![kamehameha_demo_startup](https://user-images.githubusercontent.com/18197046/145336560-087a2249-3ca1-42cd-8b7e-28abe3b790fa.png)
+
 ### More Details
 
 ... coming soon
@@ -44,6 +46,6 @@ python manage.py runserver
 ### ToDo
 
 - [x] Create an accounts application to expand the user model
-- [ ] Make a similar template with different
-- [ ] Document how to change DB changes to a DB or central file
 - [x] Create README that can actually be used to copy and paste
+- [ ] Document how to change DB (basically changing from dev to test or prod configs)
+- [ ] Make a similar template with different css frameworks (SemanticUI / TailwindCSS)
